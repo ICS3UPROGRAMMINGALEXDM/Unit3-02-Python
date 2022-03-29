@@ -14,13 +14,13 @@ def main():
     # loop to run the game again if user responds yes
     while True:
 
-        #Creating the random number
+        # Creating the random number
         r_num = random.randint(1, 15)
         print(
             "I just generated a random number between 1-15. Can you Guess it correctly?"
         )
         print(r_num)
-        
+
         # Loop allows user to keep guessing until they get it right
         while True:
             u_num = int(input("Input your number below:\n"))
